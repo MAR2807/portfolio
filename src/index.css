@@ -356,6 +356,9 @@ button.projectLinks:hover{
  color:black;
  border:2px solid black;
 }
+h1.projectHead{
+  color:white;
+}
 
 @media(max-width:500px){
 
@@ -406,16 +409,7 @@ div.project3{
 
 }
 
-button.projectLinks{
-  border:2px solid black;
-  border-radius: 10px;
-  background-color: transparent;
-  
-}
-button.projectLinks:hover{
- cursor: pointer;
- background-color: white;
-}
+
 
 }
 @media (max-width:700px) and (min-width:500px){
