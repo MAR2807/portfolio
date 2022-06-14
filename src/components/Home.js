@@ -56,7 +56,7 @@ export default function Home() {
     </motion.div>
 
       <div className="projects" ref={projects}>
-      projects 
+     <h1>Projects</h1>  
         <div className="project1"> <a href="/project1" target="_blank"> <button className="projectLinks"> Notes App </button></a>
             <p> A notes app made using firebase and firestore api from google. Has features that allow users to sign up, sign in and upload notes which can be viewed from anywhere. </p>
         </div>
