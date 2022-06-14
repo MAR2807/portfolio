@@ -24,7 +24,7 @@ export default function Home() {
        <div className="links">
         <motion.ul className = "links" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{ delay:0, duration:3}} >
 
-          <motion.li whileHover={{ scale:1.1, duration:1}}> <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer"> <img className = "github"src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt='Github'></img> </a></motion.li>
+          <motion.li whileHover={{ scale:1.1, duration:1}}> <a href="https://github.com/MAR2807" target="_blank" rel="noopener noreferrer"> <img className = "github"src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt='Github'></img> </a></motion.li>
           <motion.li whileHover={{ scale:1.1, duration:1}}> <a href="https://www.linkedin.com/in/aflal-r-588900126/" target="_blank" rel="noopener noreferrer"> <img className = "linked"src="https://blog.waalaxy.com/wp-content/uploads/2021/01/LinkedIn-Symbole.png" alt='LinkedIn'></img> </a></motion.li> 
 
         </motion.ul>
