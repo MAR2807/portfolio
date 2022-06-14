@@ -362,23 +362,4 @@ div.links{
 }
 
 
-@media(max-width:600px){
 
-
-  div.introDiv{
-  position:absolute;
-  left:120%;
-  top: 1rem;
-  background-color:transparent;
-  
- 
-}
-
-div.links{
-  position: absolute;
-  right: 5px;
-  background-color: transparent;
-  width:200px;
-}
-
-}
