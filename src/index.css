@@ -356,71 +356,6 @@ h1.projectHead{
   color:white;
 }
 
-@media(max-width:500px){
-
-
-  div.introDiv{
-  position:absolute;
-  left:155%;
-  top: 2rem;
- 
-  
- 
-}
-
-div.links{
-  position: absolute;
-  right: 5px;
-  background-color: transparent;
-  width:200px;
-}
-
-div.project1{
-  position: absolute;
-  padding:20px;
-  top:10%;
-  width:80%;
-  height: 20%;
-  left:6%;
- 
-
-}
-div.project2{
-  position: absolute;
-  padding:20px;
-  top:40%;
-  width:80%;
-  height: 20%;
-  left:6%;
-  
-  
-}
-div.project3{
-  
-  position: absolute;
-  padding:20px;
-  top:70%;
-  width:80%;
-  height: 20%;
-  left:6%;
-
-}
-
-
-
-}
-@media (max-width:700px) and (min-width:500px){
-
-  div.introDiv{
-    position:absolute;
-    left:125%;
-    top: 2rem;
-   
-    
-   
-  }
-
-}
 .about-info{
   position:absolute;
   left:500px;
@@ -483,6 +418,112 @@ div.languages{
 }
 li{
   text-align: left;
+}
+div.resumeTitle{
+  position: absolute;
+  left:800px;
+ 
+  height: 200px;
+  z-index: 1;
+ 
+}
+
+@media(max-width:500px){
+
+
+  div.introDiv{
+  position:absolute;
+  left:155%;
+  top: 2rem;
+ 
+  
+ 
+}
+
+div.links{
+  position: absolute;
+  right: 5px;
+  background-color: transparent;
+  width:200px;
+}
+
+div.project1{
+  position: absolute;
+  padding:20px;
+  top:10%;
+  width:80%;
+  height: 20%;
+  left:6%;
+ 
+
+}
+div.project2{
+  position: absolute;
+  padding:20px;
+  top:40%;
+  width:80%;
+  height: 20%;
+  left:6%;
+  
+  
+}
+div.project3{
+  
+  position: absolute;
+  padding:20px;
+  top:70%;
+  width:80%;
+  height: 20%;
+  left:6%;
+
+}
+
+
+
+
+}
+@media (max-width:700px) and (min-width:500px){
+
+  div.introDiv{
+    position:absolute;
+    left:125%;
+    top: 2rem;
+   
+    
+   
+  }
+  div.resumeContainer{
+    position:absolute;
+    width:1000px;
+    right:100px;
+    top:200px;
+  
+    
+  }
+  div.languages{
+    position:absolute;
+    left:652.5px;
+    width:400px;
+    background-color: white;
+  }
+  div.skills{
+    position:absolute;
+    left:652.5px;
+    width:400px;
+    background-color: white;
+  }
+  div.education{
+    position:absolute;
+    left:652.5px;
+    width:400px;
+    background-color: white;
+  }
+  div.resumeTitle{
+   position:absolute;
+    left:850px;
+    
+   
+  }
 }
 
 

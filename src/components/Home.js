@@ -83,8 +83,8 @@ export default function Home() {
        </div>
        <div className="contact" ref={contact}> Contact </div>
        <div className="resume" ref={resume}> 
-          <div>
-            <h1>Resume</h1>
+          <div className='resumeContainer'>
+           <div className="resumeTitle"><h1>Resume</h1></div> 
               <div className='education'> <h2> Education</h2>
                 <p>Attended Edison Highschool from 2015 to 2019.
                     Enrolled in Middlesex County College in 2019. Although I have a college education, I like to learn as much as I can using the web and improve my skills whenever possible. 
