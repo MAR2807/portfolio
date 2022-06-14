@@ -345,7 +345,7 @@ button.projectLinks:hover{
 
   div.introDiv{
   position:absolute;
-  left:160%;
+  left:155%;
   top: 2rem;
  
   
@@ -357,6 +357,58 @@ div.links{
   right: 5px;
   background-color: transparent;
   width:200px;
+}
+
+div.project1{
+  position: absolute;
+  padding:20px;
+  top:10%;
+  width:80%;
+  height: 15%;
+  left:6%;
+  border-radius:10%;
+  background: rgb(70, 130, 180);
+  color:white;
+  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
+}
+div.project2{
+  position: absolute;
+  padding:20px;
+  top:40%;
+  width:80%;
+  height: 15%;
+  left:6%;
+  border-radius:10%;
+  background: rgb(70, 130, 180);
+  color:white;
+  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
+
+  
+  
+}
+div.project3{
+  
+  position: absolute;
+  padding:20px;
+  top:70%;
+  width:80%;
+  height: 15%;
+  left:6%;
+  border-radius:10%;
+  background: rgb(70, 130, 180);
+  color:white;
+  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
+}
+
+button.projectLinks{
+  border:2px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 8px
+}
+button.projectLinks:hover{
+ cursor: pointer;
+ background-color: white;
 }
 
 }
