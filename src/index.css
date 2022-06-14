@@ -340,14 +340,14 @@ button.projectLinks:hover{
  background-color: white;
 }
 
-@media(max-width:480px){
+@media(max-width:500px){
 
 
   div.introDiv{
   position:absolute;
-  left:160%;
+  left:170%;
   top: 2rem;
-  background-color:transparent;
+  background-color:white;
   
  
 }
