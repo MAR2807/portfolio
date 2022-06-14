@@ -477,6 +477,38 @@ div.project3{
   left:6%;
 
 }
+div.resumeContainer{
+  position:absolute;
+  width:1000px;
+  right:100px;
+  top:200px;
+
+  
+}
+div.languages{
+  position:absolute;
+  left:652.5px;
+  width:400px;
+  background-color: white;
+}
+div.skills{
+  position:absolute;
+  left:652.5px;
+  width:400px;
+  background-color: white;
+}
+div.education{
+  position:absolute;
+  left:652.5px;
+  width:400px;
+  background-color: white;
+}
+div.resumeTitle{
+ position:absolute;
+  left:850px;
+  
+ 
+}
 
 
 
