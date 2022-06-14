@@ -487,25 +487,26 @@ div.resumeContainer{
 }
 div.languages{
   position:absolute;
-  left:750px;
+  left:850px;
   width:250px;
   background-color: white;
 }
 div.skills{
   position:absolute;
-  left:750px;
+  left:850px;
   width:250px;
   background-color: white;
 }
 div.education{
   position:absolute;
-  left:750px;
+  left:850px;
   width:250px;
   background-color: white;
 }
 div.resumeTitle{
  position:absolute;
   left:850px;
+  bottom:100px;
   
  
 }
