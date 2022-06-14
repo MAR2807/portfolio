@@ -57,21 +57,65 @@ export default function Home() {
 
       <div className="projects" ref={projects}>
      <h1 className='projectHead'>Projects</h1>  
-        <div className="project1"> <a href="/project1" target="_blank"> <button className="projectLinks"> Notes App </button></a>
-            <p> A notes app made using firebase and firestore api from google. Has features that allow users to sign up, sign in and upload notes which can be viewed from anywhere. </p>
+        <div className="project1"> <a href="https://noteify-app-c0702d.netlify.app/" target="_blank" rel="noreferrer"> <button className="projectLinks"> Notes App </button></a>
+            <p> A notes app made using firebase and firestore api from google. Has features that allow users to sign up, sign in and upload notes which can be viewed from anywhere.(Authentication and API) </p>
         </div>
         <div className="project2"> <a href="/ChatApp" target="_blank"> <button className="projectLinks"> Weather App </button></a>
-        <p> Description </p>
+        <p> My first project, a simple weather app using an api to pull data for a given city. Uses openweathermap API </p>
         </div>
         <div className="project3"> <a href="/project3" target="_blank"> <button className="projectLinks"> My portfolio </button></a>
-        <p> Description </p>
+        <p> This website is one of my recent projects. </p>
         </div>
         
 
       </div>
-       <div className="about" ref={about}> About </div>
+       <div className="about" ref={about}> 
+          <div className='about-info'>
+            <h1>About </h1>
+            <p>   My name is Mohamed. I graduated from Edison Highschool as class of 2019 and I am currently attending 
+                   Middlesex County College to complete my associates degree for computer science. 
+                   I have completed most of my requirements and hope to be graduating in less than 3 months. I was born in Sri Lanka and I moved to America in 2006 and 
+                   I've been living in New Jersey ever since. I grew up in Fords,NJ and by the time I was in middle school I moved to Edison. I am an avid gamer, as of right now my favorite game
+                  is Call of Duty: Warzone. I built my own PC just to play it. Building Pc's is also one of my hobbies, I like to tinker with parts and upgrade them every now and then. 
+            </p>
+          </div>
+       
+       </div>
        <div className="contact" ref={contact}> Contact </div>
-       <div className="resume" ref={resume}> Resume </div>
+       <div className="resume" ref={resume}> 
+          <div>
+            <h1>Resume</h1>
+              <div className='education'> <h2> Education</h2>
+                <p>Attended Edison Highschool from 2015 to 2019.
+                    Enrolled in Middlesex County College in 2019. Although I have a college education, I like to learn as much as I can using the web and improve my skills whenever possible. 
+                    I usually spend 4-8 hours coding or learning a day.
+                    
+                    </p>
+              </div>
+              <div className='skills'> <h2> Skills</h2>
+                
+                <li>Problem Solving</li>
+                <li> Communication</li>
+                <li>Time Management</li>
+                <li>Critical Thinking Teamwork.</li>
+                <li>Teamwork</li>
+               
+
+              </div>
+              <div className='languages'> <h2> Languages / Frameworks </h2>
+                <li> Java </li>
+                <li> Javascript  ES6 </li>
+                <li> PHP </li>
+                <li> SQL </li>
+                <li> HTML and CSS</li>
+                <li> React </li>
+              </div>
+              
+           
+          </div> 
+
+        
+       </div>
  
     
 </div>

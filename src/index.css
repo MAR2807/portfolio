@@ -202,17 +202,13 @@ box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
 }
 div.resume{
   top:280rem;
-
   position: absolute;
   width:94%;
-  height:50rem;
- 
+  height:60rem;
   left:3%;
-
-
- border-radius: 10px;
-
-box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
+  color:white;
 }
 div.project1{
   position: absolute;
@@ -226,9 +222,9 @@ div.project1{
   background: #0f0c29; 
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
-
+  box-shadow: 0px 0px 5px 0px;
   color:white;
-  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
+  
 }
 div.project2{
   color:white;
@@ -243,7 +239,7 @@ div.project2{
   background: #0f0c29; 
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
-  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 5px 0px;
 
   
   
@@ -262,7 +258,7 @@ div.project3{
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
   color:white;
-  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 5px 0px;
 }
 button.navTop{
   background-color: transparent;
@@ -386,6 +382,7 @@ div.project1{
   width:80%;
   height: 20%;
   left:6%;
+ 
 
 }
 div.project2{
@@ -424,6 +421,70 @@ div.project3{
   }
 
 }
+.about-info{
+  position:absolute;
+  left:500px;
+  top:100px;
+  background: #0f0c29; 
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+  width:800px;
+  height:500px;
+  line-height: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 0px;
+  padding-top:100px;
+  padding-left:20px;
+  padding-right:20px;
+  color:white;
+}
+div.education{
+  position:absolute;
+  left:480px;
+  top:90px;
+  color:white;
+  background: #0f0c29; 
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+  width:800px;
+  height:250px;
+  padding-left:20px;
+  padding-right:20px;
+  border-radius: 10px;
+}
+div.skills{
+  position:absolute;
+  left:480px;
+  top:340px;
+  color:white;
+  background: #0f0c29; 
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+  width:800px;
+  height:250px;
+  padding-left:20px;
+  padding-right:20px;
+  border-radius: 10px;
+}
+div.languages{
+  position:absolute;
+  left:480px;
+  top:590px;
+  color:white;
+  background: #0f0c29; 
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+  width:800px;
+  height:250px;
+  padding-left:20px;
+  padding-right:20px;
+  border-radius: 10px;
+  
+}
+li{
+  text-align: left;
+}
+
 
 
 
