@@ -481,7 +481,7 @@ div.resumeContainer{
   position:absolute;
   width:1000px;
   right:100px;
-  top:200px;
+  top:100px;
 
   
 }
@@ -506,7 +506,7 @@ div.education{
 div.resumeTitle{
  position:absolute;
   left:850px;
-  bottom:50px;
+  bottom:20px;
   
  
 }
