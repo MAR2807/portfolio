@@ -381,25 +381,17 @@ div.project1{
   padding:20px;
   top:10%;
   width:80%;
-  height: 15%;
+  height: 20%;
   left:6%;
-  border-radius:10%;
-  background: rgb(70, 130, 180);
-  color:white;
-  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
+
 }
 div.project2{
   position: absolute;
   padding:20px;
   top:40%;
   width:80%;
-  height: 15%;
+  height: 20%;
   left:6%;
-  border-radius:10%;
-  background: rgb(70, 130, 180);
-  color:white;
-  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
-
   
   
 }
@@ -409,12 +401,9 @@ div.project3{
   padding:20px;
   top:70%;
   width:80%;
-  height: 15%;
+  height: 20%;
   left:6%;
-  border-radius:10%;
-  background: rgb(70, 130, 180);
-  color:white;
-  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
+
 }
 
 button.projectLinks{
