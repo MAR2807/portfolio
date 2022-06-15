@@ -179,29 +179,23 @@ div.about{
   position: absolute;
   width:94%;
   height:50rem;
- 
   left:3%;
-
-
  border-radius: 10px;
-
 box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
 }
 div.contact{
-  top:220rem;
+  top:290rem;
   position: absolute;
   width:94%;
   height:50rem;
- 
+  color:white;
   left:3%;
-
-
- border-radius: 10px;
-
-box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
 }
 div.resume{
-  top:280rem;
+  
+  top:220rem;
   position: absolute;
   width:94%;
   height:60rem;
@@ -285,60 +279,8 @@ ul.search>li{
   padding:10px;
 
 }
-div.apiSearch{
-  height:300px;
-  background-color: green;
-}
-h1.movieID{
-  color:green;
-}
-.chat_display{
-  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
-  width:20%;
-  height:40%;
-  border:1px solid white;
-  position: absolute;
-  top:20%;
-  left:40%;
-}
-.chat_display1{
-  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
-  width:20%;
-  height:40%;
-  border:1px solid white;
-  position: absolute;
-  top:20%;
-  left:10%;
-}
-div.chat_side_bar{
-  position: absolute;
-  left:10%;
-  top:20%;
-  width:15%;
-  height:40%;
-  border-radius: 5%;
- box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
- 
-}
-.chat{
- position: absolute;
- left:40%;
- top:20%;
- width:30%;
- height:60%;
- border-radius: 5%;
- box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
-}
-div.chatOverlay{
-  background-color: rgb(147, 147, 147);
-  position: absolute;
- left:42.5%;
- top:20%;
- width:25%;
- height:30%;
- border-radius: 5%;
- box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
-}
+
+
 button.projectLinks{
   border-radius: 10px;
   background-color: transparent;
@@ -356,10 +298,10 @@ h1.projectHead{
   color:white;
 }
 
-.about-info{
+div.about-info{
   position:absolute;
-  left:500px;
-  top:100px;
+  left:27.5%;
+  top:10%;
   background: #0f0c29; 
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
@@ -374,9 +316,8 @@ h1.projectHead{
   color:white;
 }
 div.education{
-  position:absolute;
-  left:480px;
-  top:90px;
+  position:relative;
+  left:27%;
   color:white;
   background: #0f0c29; 
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
@@ -388,9 +329,9 @@ div.education{
   border-radius: 10px;
 }
 div.skills{
-  position:absolute;
-  left:480px;
-  top:340px;
+  position:relative;
+  left:27%;
+  top:2.5%;
   color:white;
   background: #0f0c29; 
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
@@ -402,9 +343,9 @@ div.skills{
   border-radius: 10px;
 }
 div.languages{
-  position:absolute;
-  left:480px;
-  top:590px;
+  position:relative;
+  left:27%;
+  top:5%;
   color:white;
   background: #0f0c29; 
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
@@ -420,12 +361,13 @@ li{
   text-align: left;
 }
 div.resumeTitle{
-  position: absolute;
-  left:800px;
-  height: 200px;
+  position: relative;
+  height: 50px;
   z-index: 1;
+
  
 }
+
 img.notes-image{
   width:300px;
   border-radius: 10px;
@@ -439,6 +381,17 @@ img.portfolio{
   border-radius: 10px;
   border:1px solid white;
 
+}
+div.resumeContainer{
+  position: absolute;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+ 
+}
+div.contact-container{
+  position: relative;
+  top:20%;
 }
 
 @media(max-width:500px){
@@ -490,51 +443,44 @@ div.project3{
   left:6%;
 
 }
-div.resumeContainer{
-  position:absolute;
-  width:1000px;
-  right:100px;
-  top:100px;
 
-  
-}
-div.languages{
-  position:absolute;
-  left:780px;
-  width:250px;
-  background-color: white;
-}
-div.skills{
-  position:absolute;
-  left:780px;
-  width:250px;
-  background-color: white;
-}
-div.education{
-  position:absolute;
-  left:780px;
-  width:250px;
-  background-color: white;
-}
-div.resumeTitle{
- position:absolute;
-  left:850px;
-  top:10px;
-  
- 
-}
 img.notes-image{
   display:none;
 }
 img.portfolio{
   display:none;
 }
+div.about-info{
+position: relative;
+left:10%;
+  width:300px;
+  font-size:x-small;
+  padding-top:0px;
 
+}
+div.skills{
+  width:300px;
+}
+div.languages{
+  width:300px;
+}
+div.education{
+  width:300px;
+}
+  
 
 
 
 }
 @media (max-width:700px) and (min-width:500px){
+  div.about-info{
+    position: relative;
+    left:10%;
+      width:300px;
+      font-size:x-small;
+      padding-top:0px;
+    
+    }
 
   div.introDiv{
     position:absolute;
@@ -544,44 +490,62 @@ img.portfolio{
     
    
   }
-  div.resumeContainer{
-    position:absolute;
-    width:1000px;
-    right:100px;
-    top:200px;
+  div.about-info{
+    position: relative;
+    left:10%;
+      width:300px;
+      font-size:x-small;
+      padding-top:0px;
+    
+    }
+  div.about-info{
+
+    width:300px;
   
-    
   }
-  div.languages{
-    position:absolute;
-    left:652.5px;
-    width:400px;
-    background-color: white;
-  }
-  div.skills{
-    position:absolute;
-    left:652.5px;
-    width:400px;
-    background-color: white;
-  }
-  div.education{
-    position:absolute;
-    left:652.5px;
-    width:400px;
-    background-color: white;
-  }
-  div.resumeTitle{
-   position:absolute;
-    left:850px;
-    
-   
-  }
+
   img.notes-image{
     display:none;
   }
   img.portfolio{
     display:none;
   }
+
+
+  div.skills{
+    position: relative;
+    left:15%;
+    width:300px;
+  }
+  div.languages{
+    left:15%;
+    width:300px;
+  }
+  div.education{
+    left:15%;
+    width:300px;
+  }
+}
+@media (max-width:1000px) and (min-width:700px){
+
+  div.skills{
+    width:500px;
+  }
+  div.languages{
+    width:500px;
+  }
+  div.education{
+    width:500px;
+  }
+  div.about-info{
+    position: relative;
+    left:10%;
+      width:500px;
+      font-size:small;
+      padding-top:0px;
+    
+    }
+
 }
 @media (max-width:1500px) and (min-width:1000px){
 
@@ -592,7 +556,23 @@ img.portfolio{
   img.portfolio{
     width:200px;;
   }
-
+  div.skills{
+    width:500px;
+  }
+  div.languages{
+    width:500px;
+  }
+  div.education{
+    width:500px;
+  }
+  div.about-info{
+    position: relative;
+    left:10%;
+      width:700px;
+      font-size:small;
+      padding-top:0px;
+    
+    }
 
 
 }
@@ -610,7 +590,13 @@ img.portfolio{
     width:150px;
     right: 10px;
   }
-
+  div.resumeContainer{
+    position:absolute;
+    width:1000px;
+    
+  
+    
+  }
 
 
 }

@@ -45,8 +45,9 @@ export default function Home() {
          <ul className="navTop"> 
            <motion.li className ="navTop" whileHover={{scale:1.1}} onClick={() => scrollToSection(projects)}><button className ="navTop">Projects</button></motion.li>
            <motion.li className ="navTop" whileHover={{scale:1.1}} onClick={() => scrollToSection(about)}><button className ="navTop">About</button></motion.li>
-           <motion.li className ="navTop" whileHover={{scale:1.1}} onClick={() => scrollToSection(contact)}><button className ="navTop">Contact</button></motion.li>
            <motion.li className ="navTop" whileHover={{scale:1.1}} onClick={() => scrollToSection(resume)}><button className ="navTop">Resume</button></motion.li>
+           <motion.li className ="navTop" whileHover={{scale:1.1}} onClick={() => scrollToSection(contact)}><button className ="navTop">Contact</button></motion.li>
+           
            
          </ul>
          
@@ -60,16 +61,16 @@ export default function Home() {
 
       <div className="projects" ref={projects}>
      <h1 className='projectHead'>Projects</h1>  
-        <div className="project1"> <a href="https://noteify-app-c0702d.netlify.app/" target="_blank" rel="noreferrer"> <button className="projectLinks"> Notes App </button></a>
+        <div className="project1"> <a href="https://noteify-app-c0702d.netlify.app/" target="_blank" rel="noreferrer"> <button className="projectLinks"> Notes App: live website </button></a>
             <p> A notes app made using firebase and firestore api from google. Has features that allow users to sign up, sign in and upload notes which can be viewed from anywhere.(Authentication and API) </p>
             <img src={notes} className='notes-image' alt = "notes-app"></img>
         </div>
-        <div className="project2"> <a href="https://github.com/MAR2807/weather-app" target="_blank"> <button className="projectLinks"> Weather App </button></a>
+        <div className="project2"> <a href="https://github.com/MAR2807/weather-app" target="_blank" rel="noreferrer"> <button className="projectLinks"> Weather App: Github</button></a>
         <p> My first project, a simple weather app using an api to pull data for a given city. Uses openweathermap API </p>
         <img src={weather} className='notes-image' alt = "weather App"></img>
         </div>
-        <div className="project3"> <a href="/project3" target="_blank"> <button className="projectLinks"> My portfolio </button></a>
-        <p> This website is one of my recent projects. </p>
+        <div className="project3"> <a href="https://mohamedrafeek.netlify.app/" target="_blank" rel="noreferrer"> <button className="projectLinks"> My portfolio </button></a>
+        <p> This website is one of my recent projects. It was built to show my projects and resume.</p>
         <img src={portfolio} className='portfolio' alt = "portfolio"></img>
         </div>
         
@@ -87,10 +88,19 @@ export default function Home() {
           </div>
        
        </div>
-       <div className="contact" ref={contact}> Contact </div>
+       <div className="contact" ref={contact}>  
+       <h1>Contact</h1> 
+       <div className='contact-container'>
+         
+          <h2>Email:</h2> <p>aflalrafeek28@gmail.com </p>
+           <h2><a href="https://github.com/MAR2807" target="_blank" rel="noreferrer"> <button className="projectLinks" > GitHub </button></a></h2>
+           <h2><a href="https://www.linkedin.com/in/mohamed-r-588900126" target="_blank" rel="noreferrer"> <button className="projectLinks"> LinkedIn </button></a></h2>
+           </div>
+       </div>
        <div className="resume" ref={resume}> 
+       <div className="resumeTitle"><h1>Resume</h1></div>
           <div className='resumeContainer'>
-           <div className="resumeTitle"><h1>Resume</h1></div> 
+           
               <div className='education'> <h2> Education</h2>
                 <p>Attended Edison Highschool from 2015 to 2019.
                     Enrolled in Middlesex County College in 2019. Although I have a college education, I like to learn as much as I can using the web and improve my skills whenever possible. 
