@@ -1,6 +1,9 @@
 
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
+import notes from './images/notes.png';
+import weather from './images/weather-app.png';
+import portfolio from './images/portfolio.png';
 
 export default function Home() {
   const projects = useRef(null);
@@ -59,12 +62,15 @@ export default function Home() {
      <h1 className='projectHead'>Projects</h1>  
         <div className="project1"> <a href="https://noteify-app-c0702d.netlify.app/" target="_blank" rel="noreferrer"> <button className="projectLinks"> Notes App </button></a>
             <p> A notes app made using firebase and firestore api from google. Has features that allow users to sign up, sign in and upload notes which can be viewed from anywhere.(Authentication and API) </p>
+            <img src={notes} className='notes-image' alt = "notes app"></img>
         </div>
-        <div className="project2"> <a href="/ChatApp" target="_blank"> <button className="projectLinks"> Weather App </button></a>
+        <div className="project2"> <a href="https://github.com/MAR2807/weather-app" target="_blank"> <button className="projectLinks"> Weather App </button></a>
         <p> My first project, a simple weather app using an api to pull data for a given city. Uses openweathermap API </p>
+        <img src={weather} className='notes-image' alt = "weather App"></img>
         </div>
         <div className="project3"> <a href="/project3" target="_blank"> <button className="projectLinks"> My portfolio </button></a>
         <p> This website is one of my recent projects. </p>
+        <img src={portfolio} className='portfolio' alt = "portfolio"></img>
         </div>
         
 

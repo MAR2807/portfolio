@@ -422,10 +422,23 @@ li{
 div.resumeTitle{
   position: absolute;
   left:800px;
- 
   height: 200px;
   z-index: 1;
  
+}
+img.notes-image{
+  width:300px;
+  border-radius: 10px;
+  border:1px solid white;
+
+}
+img.portfolio{
+  position: relative;
+  top:50px;
+  width:300px;
+  border-radius: 10px;
+  border:1px solid white;
+
 }
 
 @media(max-width:500px){
@@ -510,12 +523,18 @@ div.resumeTitle{
   
  
 }
+img.notes-image{
+  display:none;
+}
+img.portfolio{
+  display:none;
+}
 
 
 
 
 }
-@media (max-width:700px) and (min-width:500px){
+@media (max-width:1500px) and (min-width:500px){
 
   div.introDiv{
     position:absolute;
@@ -556,6 +575,12 @@ div.resumeTitle{
     left:850px;
     
    
+  }
+  img.notes-image{
+    display:none;
+  }
+  img.portfolio{
+    display:none;
   }
 }
 
