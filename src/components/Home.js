@@ -62,6 +62,7 @@ export default function Home() {
       <div className="projects" ref={projects}>
      <h1 className='projectHead'>Projects</h1>  
         <div className="project1"> <a href="https://noteify-app-c0702d.netlify.app/" target="_blank" rel="noreferrer"> <button className="projectLinks"> Notes App: live website </button></a>
+        <a href="https://github.com/MAR2807/notes-app" target="_blank" rel="noreferrer"> <button className="projectLinks"> Notes App: Github </button></a>
             <p> A notes app made using firebase and firestore api from google. Has features that allow users to sign up, sign in and upload notes which can be viewed from anywhere.(Authentication and API) </p>
             <img src={notes} className='notes-image' alt = "notes-app"></img>
         </div>
@@ -82,8 +83,7 @@ export default function Home() {
             <p>   My name is Mohamed. I graduated from Edison Highschool as class of 2019 and I am currently attending 
                    Middlesex County College to complete my associates degree for computer science. 
                    I have completed most of my requirements and hope to be graduating in less than 3 months. I was born in Sri Lanka and I moved to America in 2006 and 
-                   I've been living in New Jersey ever since. I grew up in Fords,NJ and by the time I was in middle school I moved to Edison. I am an avid gamer, as of right now my favorite game
-                  is Call of Duty: Warzone. I built my own PC just to play it. Building Pc's is also one of my hobbies, I like to tinker with parts and upgrade them every now and then. 
+                   I've been living in New Jersey ever since. I grew up in Fords,NJ and by the time I was in middle school I moved to Edison. Building Pc's is also one of my hobbies, I like to tinker with parts and upgrade them every now and then. 
             </p>
           </div>
        
