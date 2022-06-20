@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import notes from './images/notes.png';
 import weather from './images/weather-app.png';
 import portfolio from './images/portfolio.png';
+import abc1 from './images/abc1.png';
 
 export default function Home() {
   const projects = useRef(null);
@@ -90,6 +91,7 @@ export default function Home() {
        </div>
        <div className="contact" ref={contact}>  
        <h1>Contact</h1> 
+      
        <div className='contact-container'>
          
           <h2>Email:</h2> <p>aflalrafeek28@gmail.com </p>
@@ -100,33 +102,9 @@ export default function Home() {
        <div className="resume" ref={resume}> 
        <div className="resumeTitle"><h1>Resume</h1></div>
           <div className='resumeContainer'>
-           
-              <div className='education'> <h2> Education</h2>
-                <p>Attended Edison Highschool from 2015 to 2019.
-                    Enrolled in Middlesex County College in 2019. Although I have a college education, I like to learn as much as I can using the web and improve my skills whenever possible. 
-                    I usually spend 4-8 hours coding or learning a day.
-                    
-                    </p>
-              </div>
-              <div className='skills'> <h2> Skills</h2>
-                
-                <li>Problem Solving</li>
-                <li> Communication</li>
-                <li>Time Management</li>
-                <li>Critical Thinking Teamwork.</li>
-                <li>Teamwork</li>
-               
-
-              </div>
-              <div className='languages'> <h2> Languages / Frameworks </h2>
-                <li> Java </li>
-                <li> Javascript  ES6 </li>
-                <li> PHP </li>
-                <li> SQL </li>
-                <li> HTML and CSS</li>
-                <li> React </li>
-              </div>
-              
+           <div className='resume-img-container'>
+          <img src={abc1} className='resume-image' alt = "weather App"></img>
+          </div>
            
           </div> 
 
