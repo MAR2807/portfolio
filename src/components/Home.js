@@ -5,6 +5,7 @@ import notes from './images/notes.png';
 import weather from './images/weather-app.png';
 import portfolio from './images/portfolio.png';
 import abc1 from './images/abc1.png';
+import resume1 from './images/resume1.pdf';
 
 export default function Home() {
   const projects = useRef(null);
@@ -103,7 +104,7 @@ export default function Home() {
        <div className="resumeTitle"><h1>Resume</h1></div>
           <div className='resumeContainer'>
            <div className='resume-img-container'>
-          <img src={abc1} className='resume-image' alt = "weather App"></img>
+              <iframe className='resumePDF' src={resume1} ></iframe>
           </div>
            
           </div> 
