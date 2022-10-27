@@ -7,6 +7,8 @@ import portfolio from './images/portfolio.png';
 import abc1 from './images/abc1.png';
 import resume1 from './images/abc1.png';
 import tictactoe10 from './images/tictactoe10.png';
+import resumePDF from './images/resume_DOH.pdf';
+import download from './images/download.png'
 
 export default function Home() {
   const projects = useRef(null);
@@ -149,12 +151,16 @@ export default function Home() {
        <div className="resume" ref={resume}> 
        <div className="container"><h1 className='resumeTitle'>Resume</h1></div>
           <div className='resumeContainer'>
-          
+             
               {/* <iframe className='resumePDF' src={resume1} ></iframe> */}
-              <img src={resume1}></img>
+              <img className="resume" src={resume1}></img>
         
            
           </div> 
+          <div className='container resumeDownload'>  
+          <a className='resume' href={resumePDF} download='Mohamed_Rafeek_Resume'> Download  <img src={download} className="download"></img></a> 
+
+          </div>
 
         
        </div>
