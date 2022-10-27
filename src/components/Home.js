@@ -5,7 +5,7 @@ import notes from './images/notes.png';
 import weather from './images/weather2.png';
 import portfolio from './images/portfolio.png';
 import abc1 from './images/abc1.png';
-import resume1 from './images/resume1.pdf';
+import resume1 from './images/abc1.png';
 import tictactoe10 from './images/tictactoe10.png';
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
     <div class = "introM">
 
       
-    <motion.div className ="introDiv" initial={{opacity:1}} animate = {{x:-500}} exit={{opacity:0}} transition={{duration:1}}>
+    <motion.div className =" introDiv" initial={{opacity:1}} animate = {{x:-500}} exit={{opacity:0}} transition={{duration:1}}>
 
         <motion.h1 initial={{opacity:0}} animate={{opacity:1}} transition={{duration:3}} className="intro">Mohamed Rafeek</motion.h1>
        <motion.p className="desc1" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{ delay:1, duration:3}}> Software Developer</motion.p>
@@ -62,17 +62,17 @@ export default function Home() {
         
     </motion.div>
     <div className='mainContainer'>
-      <div className="projects" ref={projects}>
+      <div className=" container projects" ref={projects}>
      
         <div className="project1"> 
-       <div className='project_title_1'> <h1 className='project_title_1'>Projects</h1> </div>
+       <div className=' container'> <h1 className='project_title_1'>Projects</h1> </div>
         <div className='info_p1'>
           <h1> Notes App</h1>
             <a href="https://noteify-app-c0702d.netlify.app/" target="_blank" rel="noreferrer"> <button className="projectLinks1"> Notes App: live website </button></a>
             <a href="https://github.com/MAR2807/notes-app" target="_blank" rel="noreferrer"> <button className="projectLinks1"> Notes App: Github </button></a>
             <p> A notes app made using firebase and firestore api from google. Has features that allow users to sign up, sign in and upload notes which can be viewed from anywhere.(Authentication and API) </p>
         </div>
-        <div className='p1_container'>
+        <div className=' p1_container'>
           <div className='img_p1_1'>
             <img src={notes} className='notes-image' alt = "notes-app"></img>
           </div>
@@ -124,13 +124,13 @@ export default function Home() {
 
       </div>
        <div className="about" ref={about}> 
-       <div className='about-title'><h1 className='about-title'>About </h1></div>
-          <div className='about-info'>
+       <div className="container"><h1 className='about-title'>About </h1></div>
+          <div className="container about-info">
             
             <p className = "about-info">   
                   Hi, my name is Mohamed. I graduated from Edison Highschool as class of 2019 and I am currently attending 
                    Middlesex College to complete my associates degree for computer science. 
-                   I have completed most of my requirements and hope to be graduating this december with an associates in computer science. I prefer to 
+                   I have completed most of my requirements and I will be graduating this december with an associates in computer science. I prefer to 
                    work with Javascript using the React framework but I am also proficient in Java, PHP, and SQL.
             </p>
           </div>
@@ -142,15 +142,16 @@ export default function Home() {
        <div className='contact-container'>
          
           <h2>Email:</h2> <p>aflalrafeek28@gmail.com </p>
-           <h2><a href="https://github.com/MAR2807" target="_blank" rel="noreferrer"> <button className="projectLinks" > GitHub </button></a></h2>
-           <h2><a href="https://www.linkedin.com/in/mohamed-r-588900126/" target="_blank" rel="noreferrer"> <button className="projectLinks"> LinkedIn </button></a></h2>
+           <h2><a href="https://github.com/MAR2807" target="_blank" rel="noreferrer"> <button button type="button" class="btn btn-primary" > GitHub </button></a></h2> 
+           <h2><a href="https://www.linkedin.com/in/mohamed-r-588900126/" target="_blank" rel="noreferrer"> <button className="btn btn-primary"> LinkedIn </button></a></h2>
            </div>
        </div>
        <div className="resume" ref={resume}> 
-       <div className="resumeTitle"><h1 className='resumeTitle'>Resume</h1></div>
+       <div className="container"><h1 className='resumeTitle'>Resume</h1></div>
           <div className='resumeContainer'>
           
-              <iframe className='resumePDF' src={resume1} ></iframe>
+              {/* <iframe className='resumePDF' src={resume1} ></iframe> */}
+              <img src={resume1}></img>
         
            
           </div> 

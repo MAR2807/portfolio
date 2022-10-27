@@ -37,7 +37,7 @@ h1.intro{
 div.introDiv{
   position:absolute;
   left:50%;
-  top: 20rem;
+  top: 3%;
   background-color:transparent;
  
 }
@@ -95,8 +95,8 @@ ul>li{
   padding:0rem;
 }
 div.links{
-  position: absolute;
-  right: 4rem;
+  position: relative;
+  width:300px;
 }img.github{
   width:3rem;
 }
@@ -225,7 +225,7 @@ div.contact{
   color:white;
   left:3%;
   border-radius: 10px;
-  box-shadow: 5px 25px 100px rgba(0,0,0,0.5);
+  
 }
 
 div.project1{
@@ -335,9 +335,8 @@ div.info_p3{
   width:400px;
   height:300px;
   top:-10%;
-  left:13%;
+  left:15%;
   z-index: 1;
-  min-width: 200px;
   border:1px solid crimson;
   border-radius: 20px;
   box-shadow: 5px 55px 100px black;
@@ -379,9 +378,9 @@ div.info_p4{
   width:400px;
   height:300px;
   top:-45%;
-  left:13%;
+  left:15%;
   z-index: 1;
-  min-width: 200px;
+
   border:1px solid crimson;
   border-radius: 20px;
   box-shadow: 5px 55px 100px black;
@@ -493,17 +492,8 @@ h1.project_title_1{
   
 }
 div.about-info{
-  position:absolute;
-  left:15%;
-  top:35%;
-  width:600px;
-  height:350px;
-  border-radius: 10px;
-  padding-top:20px;
-  padding-right:20px;
-  padding-left:20px;
-
-  color:black;
+  position: relative;
+  top:15%;
 }
 p.about-info{
   color:white;
@@ -592,6 +582,7 @@ img.portfolio1{
 }
 img.tictactoe{
   position: relative;
+  width:700px;
   right:40%;
   opacity: 60%;
 }
@@ -608,17 +599,66 @@ iframe.resumePDF{
   height:700px;
   width:600px;
 }
-@media(max-width:500px){
 
+ 
+@media (max-width:700px) and (min-width:100px){
 
   div.introDiv{
-  position:absolute;
-  left:155%;
-  top: 2rem;
- 
-  
- 
+    left:110%;
+  }
+  img.notes-image{
+    width:500px;
+  }
+  img.weather-image{
+    width:400px;
+  }
+  img.portfolio1{
+    width:500px;
+  }
+  img.tictactoe{
+    width:500px;
+  }
+  div.p1_container{
+    left:-80%;
+  }
+  div.project1{
+    left:-10%;
+  }
+  div.p2_container{
+    left:-5%;
+    top:-65%;
+  }
+  div.project2{
+    left:-10%;
+  }
+  div.p3_container{
+    left:-30%;
+    top:-60%;
+  }
+  div.project3{
+    left:-10%;
+  }
+  div.p4_container{
+    left:-10%;
+    top:-110%;
+  }
+  div.project4{
+    left:-10%;
+  }
 }
+@media (min-width:700px) and (max-width:1200px){
+
+  div.introDiv{
+    left:100%;
+  }
+}
+@media (min-width:1200px) and (max-width:1600px){
+
+  div.introDiv{
+    left:60%;
+  }
+}
+/*
 iframe.resumePDF{
   height:400px;
   width:300px;
@@ -1182,4 +1222,4 @@ div.education{
 
 
 
-
+ */
