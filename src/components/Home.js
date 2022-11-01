@@ -4,10 +4,9 @@ import { useRef } from 'react';
 import notes from './images/notes.png';
 import weather from './images/weather2.png';
 import portfolio from './images/portfolio.png';
-import abc1 from './images/abc1.png';
 import resume1 from './images/abc1.png';
 import tictactoe10 from './images/tictactoe10.png';
-import resumePDF from './images/resume_DOH.pdf';
+import resumePDF from './images/resume1.pdf';
 import download from './images/download.png'
 
 export default function Home() {
