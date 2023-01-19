@@ -129,10 +129,8 @@ export default function Home() {
           <div className="container about-info">
             
             <p className = "about-info">   
-                  Hi, my name is Mohamed. I graduated from Edison Highschool as class of 2019 and I am currently attending 
-                   Middlesex College to complete my associates degree for computer science. 
-                   I have completed most of my requirements and I will be graduating this december with an associates in computer science. I prefer to 
-                   work with Javascript using the React framework but I am also proficient in Java, PHP, and SQL.
+                  Hi, my name is Mohamed. I graduated from Edison Highschool as class of 2019 and I have completed a Computer information systems degree at 
+                   Middlesex College in 2022. I prefer to work with Javascript using the React framework but I am also proficient in Java, PHP, and SQL.
             </p>
           </div>
        
