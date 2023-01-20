@@ -84,7 +84,7 @@ export default function Home() {
         <div className="project2">
             <div className='info_p2'>
             <h1> Weather App</h1>
-               <a href="https://github.com/MAR2807/weather-app" target="_blank" rel="noreferrer"> <button className="projectLinks1"> Weather App: Github</button></a>
+               <a href="https://github.com/MAR2807/weather.git" target="_blank" rel="noreferrer"> <button className="projectLinks1"> Weather App: Github</button></a>
             <p> My first project, a simple weather app using an api to pull data for a given city. Uses openweathermap API </p>
           </div>
           <div className='p2_container'>
