@@ -313,14 +313,16 @@ div.p2_container{
 }
 div.img_p2_2{
   position: relative;
-  left:10%;
+  left:30%;
+  width: 50%;
+  
   
 }
 div.project3{
   
   position: absolute;
   padding:20px;
-  top:50%;
+  top:55%;
   width:100vw;
   height: 100vh;
   left:5%;
@@ -377,7 +379,7 @@ div.info_p4{
   background-color: rgb(3, 24, 37);
   width:400px;
   height:300px;
-  top:-45%;
+  top:-20%;
   left:15%;
   z-index: 1;
 
@@ -390,7 +392,7 @@ div.p4_container{
   position: relative;
   left:-15%;
   width: 110%;
-  top:-90%;
+  top:-60%;
   background-color: rgb(3, 24, 37);
   height:75%;
 
@@ -560,14 +562,15 @@ img.notes-image{
   width:900px;
   height: relative;
   border-radius: 10px;
-  border:2px solid white;
+  /* border:2px solid white; */
   
 
 }
 img.weather-image{
-  width:400px;
+  width:900px;
   height: relative;
   border-radius: 10px;
+  /* border:2px solid white; */
   
 
 }
@@ -576,7 +579,7 @@ img.portfolio1{
   top:50px;
   width:900px;
   border-radius: 10px;
-  border:1px solid white;
+  /* border:1px solid white; */
   opacity: 60%;
 
 }
@@ -659,7 +662,7 @@ img.download{
   }
   div.p4_container{
     left:-10%;
-    top:-110%;
+    top:-80%;
   }
   div.project4{
     left:-10%;
@@ -667,6 +670,14 @@ img.download{
   img.resume{
   width:400px;
     
+  }
+  div.img_p2_2{
+    top:50%;
+    left:10%;
+    
+  }
+  img.weather-image{
+    width:500px;
   }
 }
 @media (min-width:700px) and (max-width:1200px){
