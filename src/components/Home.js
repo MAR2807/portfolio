@@ -88,7 +88,7 @@ export default function Home() {
     </div>
     <div className="col myColumn">
     <img className='notes-image' src={dealership}></img>
-    <h3> Weather App </h3>
+    <h3> Dealership </h3>
     <p>A conceptual dealership website made using javascript, react, as well as a backend using firebase to pull data about each car showcased on the site. This website organizes the cars and allows the user to rearrange them to their liking using filters such as: price, fuel, year and mileage.</p>
     <button className="btn btn-primary projButton" ><a className="projLink" href="https://github.com/MAR2807/dealership.git" target="_blank">Github </a></button>
     </div>
