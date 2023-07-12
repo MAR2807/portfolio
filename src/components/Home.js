@@ -59,13 +59,13 @@ export default function Home() {
        </motion.nav>
       
 
-{/* 
-    <motion.div  onClick={() => scrollToSection(projects)} className = "down_arrow"> <motion.img initial={{opacity:0, y:10}} animate = {{ y:80, opacity:1}}  transition={{duration:1, yoyo:Infinity, delay:4}}  className="down_arrow" src ="http://visualeyespdx.com/wp-content/uploads/2015/08/vec_down_arrow.png" alt ="down_Arrow"></motion.img>
+ 
+    {/* <motion.div  onClick={() => scrollToSection(projects)} className = "down_arrow"> <motion.img initial={{opacity:0, y:10}} animate = {{ y:80, opacity:1}}  transition={{duration:1, yoyo:Infinity, delay:4}}  className="down_arrow" src ="http://visualeyespdx.com/wp-content/uploads/2015/08/vec_down_arrow.png" alt ="down_Arrow"></motion.img>
         
-    </motion.div> */}
+    </motion.div>  */}
     <div className='mainContainer'>
 
-<div className='container-fluid projectHolder'>  
+<div className='container-fluid projectHolder' ref={projects}>  
 <div className="container ">
   <div className="row projRow">
     <div className="col myColumn">
