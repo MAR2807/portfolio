@@ -7,7 +7,8 @@ import portfolio from './images/portfolio.png';
 import resume1 from './images/Resume10.25.png';
 import tictactoe10 from './images/tictactoe10.png';
 import resumePDF from './images/resume1.pdf';
-import download from './images/download.png'
+import download from './images/download.png';
+import dealership from './images/dealershipIMG-S.png';
 
 export default function Home() {
   const projects = useRef(null);
@@ -20,8 +21,8 @@ export default function Home() {
   })
   }
   return (
-    
-    <div class = "introM">
+ 
+    <div class = "  introM">
 
       
     <motion.div className =" introDiv" initial={{opacity:1}} animate = {{x:-500}} exit={{opacity:0}} transition={{duration:1}}>
@@ -45,8 +46,8 @@ export default function Home() {
  
 
 
-    <motion.div className = "navTop"> 
-         <ul className="navTop"> 
+    <motion.nav className = "navbar navbar-expand-lg navTop"> 
+         <ul className="navbar-nav navtop"> 
            <motion.li className ="navTop" whileHover={{scale:1.1}} onClick={() => scrollToSection(projects)}><button className ="navTop">Projects</button></motion.li>
            <motion.li className ="navTop" whileHover={{scale:1.1}} onClick={() => scrollToSection(about)}><button className ="navTop">About</button></motion.li>
            <motion.li className ="navTop" whileHover={{scale:1.1}} onClick={() => scrollToSection(resume)}><button className ="navTop">Resume</button></motion.li>
@@ -55,72 +56,52 @@ export default function Home() {
            
          </ul>
          
-       </motion.div>
+       </motion.nav>
       
 
-
+{/* 
     <motion.div  onClick={() => scrollToSection(projects)} className = "down_arrow"> <motion.img initial={{opacity:0, y:10}} animate = {{ y:80, opacity:1}}  transition={{duration:1, yoyo:Infinity, delay:4}}  className="down_arrow" src ="http://visualeyespdx.com/wp-content/uploads/2015/08/vec_down_arrow.png" alt ="down_Arrow"></motion.img>
         
-    </motion.div>
+    </motion.div> */}
     <div className='mainContainer'>
-      <div className=" container projects" ref={projects}>
-     
-        <div className="project1"> 
-       <div className=' container'> <h1 className='project_title_1'>Projects</h1> </div>
-        <div className='info_p1'>
-          <h1> Notes App</h1>
-            <a href="https://noteify-app-c0702d.netlify.app/" target="_blank" rel="noreferrer"> <button className="projectLinks1"> Notes App: live website </button></a>
-            <a href="https://github.com/MAR2807/notes-app" target="_blank" rel="noreferrer"> <button className="projectLinks1"> Notes App: Github </button></a>
-            <p> A notes app made using firebase and firestore api from google. Has features that allow users to sign up, sign in and upload notes which can be viewed from anywhere.(Authentication and API) </p>
-        </div>
-        <div className=' p1_container'>
-          <div className='img_p1_1'>
-            <img src={notes} className='notes-image' alt = "notes-app"></img>
-          </div>
-            
-        </div>
-        </div>
-          
-        <div className="project2">
-            <div className='info_p2'>
-            <h1> Weather App</h1>
-               <a href="https://github.com/MAR2807/weather.git" target="_blank" rel="noreferrer"> <button className="projectLinks1"> Weather App: Github</button></a>
-            <p> My first project, a simple weather app using an api to pull data for a given city. Uses openweathermap API </p>
-          </div>
-          <div className='p2_container'>
-          <div className='img_p2_2'>
-            <img src={weather} className='weather-image' alt = "weather App"></img>
-            </div>
-            </div>
 
-        </div>
+<div className='container-fluid projectHolder'>  
+<div className="container ">
+  <div className="row projRow">
+    <div className="col myColumn">
+     <img className='notes-image' src={notes}></img>
+     <h3> Notes App</h3>
+     <p>This notes application built with HTML, CSS, JavaScript, and React lets users create an account and store their notes on the site. The notes are securely stored in Google Firebase, and can be accessed from anywhere. The interface is user-friendly, making it easy to create, view, and edit notes. Overall, it's a simple and effective way to store and access notes online.</p>
+     <button className="btn btn-primary projButton" ><a className="projLink" href="https://github.com/MAR2807/notes-app.git" target="_blank">Github </a></button>
+     <button className="btn btn-primary projButton" ><a className="projLink" href="https://noteify-app-c0702d.netlify.app" target="_blank">Live Website </a></button>
+    </div>
+    <div className="col myColumn">
+    <img className='notes-image' src={weather}></img>
+    <h3> Weather App </h3>
+    <p>This weather app built with JavaScript and ReactJS leverages the openweathermap API to fetch real-time weather data for any city search. It displays current and forecasted weather conditions, such as temperature and humidity, in a user-friendly interface with clean visualizations. Stay informed and plan your day with ease using this intuitive weather app.</p>
+    <button className="btn btn-primary projButton" ><a className="projLink" href="https://github.com/MAR2807/weather-app.git" target="_blank">Github </a></button>
+    </div>
+    <div className="col myColumn" >
+    <img className='notes-image' src={portfolio}></img>
+    <h3> Portfolio</h3>
+    <p> A portfolio website I made to house my projects, resume and other info</p>
+    </div>
+    <div className="col myColumn">
+    <img className='notes-image' src={dealership}></img>
+    <h3> Weather App </h3>
+    <p>A conceptual dealership website made using javascript, react, as well as a backend using firebase to pull data about each car showcased on the site. This website organizes the cars and allows the user to rearrange them to their liking using filters such as: price, fuel, year and mileage.</p>
+    <button className="btn btn-primary projButton" ><a className="projLink" href="https://github.com/MAR2807/dealership.git" target="_blank">Github </a></button>
+    </div>
 
-        <div className="project3"> 
-        <div className='info_p3'>
-        <h1> Portfolio </h1>
-            <a href="https://mohamedrafeek.netlify.app/" target="_blank" rel="noreferrer"> <button className="projectLinks1"> My portfolio </button></a>
-            <p> This website is one of my recent projects. It was built to show my projects and resume.</p>
-        </div>
-        <div className='p3_container'>
-        <div className='img_p3_3'>
-        <img src={portfolio} className='portfolio1' alt = "portfolio"></img>
-        </div>
-        </div>
-        </div>
+    
+    
+    {/* <div className="col myColumn" >
+    <img className='tt-image' src={tictactoe10}></img>
+    </div> */}
+  </div>
+</div>
 
-        <div className="project4"> 
-        <div className='info_p4'>
-        <h1> Tictactoe </h1>
-            <a href="https://github.com/MAR2807/tictactoe" target="_blank" rel="noreferrer"> <button className="projectLinks1"> Github </button></a>
-            <p> A tictactoe game I made using Javascript and React</p>
-        </div>
-        <div className='p4_container'>
-        <div className='img_p4_4'>
-        <img src={tictactoe10} className='tictactoe' alt = "tictactoe"></img>
-        </div>
-        </div>
-        
-        </div>
+</div>
         
 
       </div>
@@ -146,7 +127,8 @@ export default function Home() {
            </div>
        </div>
        <div className="resume" ref={resume}> 
-       <div className="container"><h1 className='resumeTitle'>Resume</h1></div>
+       <div className="resumeTitle"> <h1 className='resumeTitle'>Resume</h1></div>
+      
           <div className='resumeContainer'>
              
               {/* <iframe className='resumePDF' src={resume1} ></iframe> */}
@@ -162,8 +144,8 @@ export default function Home() {
         
        </div>
        </div>
-    
-</div>
+
+// </div>
   )
 
   
