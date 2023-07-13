@@ -6,7 +6,7 @@ import weather from './images/weather2.png';
 import portfolio from './images/portfolio.png';
 import resume1 from './images/Resume10.25.png';
 import tictactoe10 from './images/tictactoe10.png';
-import resumePDF from './images/resume1.pdf';
+import resumePDF from './images/Resume (2).pdf';
 import download from './images/download.png';
 import dealership from './images/dealershipIMG-S.png';
 
